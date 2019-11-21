@@ -9,9 +9,34 @@ html, body{
 }
 
 main{
-    margin: auto;
-    width: 700px;
+    margin: 0 auto;
+    width: 900px;
     position: relative;
+}
+
+header{
+    height: 100px;
+    background-color: rgb(255,100,100)
+}
+
+nav{
+    height: 40ßpx;
+    background-color: rgb(100,255,200)
+}
+
+aside{
+    height: 300px;
+    background-color: rgb(200,255,0)
+}
+
+article{
+    height: 300px;
+    background-color: rgb(200,200,200)
+}
+
+footer{
+    height: 50px;
+    background-color: rgb(100,100,255)
 }
 
 /* Specifieke stijlen */
