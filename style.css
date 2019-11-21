@@ -1,0 +1,25 @@
+/* Basislayout */
+
+html, body{
+    height: 100%;
+    padding: 0;
+    background-color: rgb(255,255,255);
+
+    font: Verdana, Arial, Sans-Serif;
+}
+
+main{
+    margin: auto;
+    width: 700px;
+    position: relative;
+}
+
+/* Specifieke stijlen */
+
+header.title{
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Navigatiebalk */
+
