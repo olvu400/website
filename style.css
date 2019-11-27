@@ -26,11 +26,11 @@ header{
 }
 
 nav{
-    height: 40px;
+    height: 60px;
 }
 
 aside{
-    height: 300px;
+    height: 500px;
     width: 30%;
     background-color: rgb(200,255,0);
     float: left;
@@ -38,7 +38,7 @@ aside{
 }
 
 article{
-    height: 300px;
+    height: 500px;
     background-color: rgb(200,200,200);
     padding-left: 5px;
 }
@@ -46,6 +46,7 @@ article{
 footer{
     height: 50px;
     background-color: rgb(100,100,255);
+    width: 100%;
 }
 
 /* Specifieke stijlen */
@@ -53,6 +54,11 @@ footer{
 header.title{
     text-align: center;
     font-size: 25px;
+}
+
+aside, article {
+    font-size: 30px;
+    overflow: auto;
 }
 
 /* Navigatiebalk */
