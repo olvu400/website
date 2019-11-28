@@ -9,12 +9,12 @@
 html, body{
     height: 100%;
     padding: 0;
-    background-color: rgb(255,255,255);
+    background-color: #111;
 
     font: Verdana, Arial, Sans-Serif;
 }
 
-main{
+main {
     margin: 0 auto;
     width: 900px;
     position: relative;
@@ -23,10 +23,11 @@ main{
 header{
     height: 100px;
     background-color: rgb(255,100,100);
+    background-image: url("afbeeldingen/headerpic_hockey.jpg")
 }
 
 nav{
-    height: 60px;
+    height: 47px;
 }
 
 aside{
