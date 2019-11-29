@@ -119,3 +119,24 @@ li a:hover {
 .active_page {
     background-color: #8793d4;
 }
+
+/* social media icons */
+
+.socialmedia_icons {
+    text-align: center;
+}
+
+.SMicon {
+    color: whitesmoke;
+    font-size: 50px;
+    margin: 50px;
+}
+
+.SMicon:hover {
+    opacity: 0.7;
+}
+
+.icons {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
