@@ -27,7 +27,7 @@ header{
 }
 
 nav{
-    height: 47px;
+    height: 46px;
     text-align: center;
 }
 
@@ -114,4 +114,8 @@ li a {
 
 li a:hover {
     background-color: #111
+}
+
+.active_page {
+    background-color: #8793d4;
 }
