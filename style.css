@@ -10,18 +10,17 @@ html, body{
     height: 100%;
     padding: 0;
     background-color: #111;
-
     font: Verdana, Arial, Sans-Serif;
 }
 
 main {
-    margin: 0 auto;
-    width: 900px;
+    margin: auto;
+    width: auto;
     position: relative;
 }
 
 header{
-    height: 100px;
+    height: 200px;
     background-image: url("afbeeldingen/headerpic_hockey.jpg");
     font-family: sans-serif;
 }
@@ -32,17 +31,20 @@ nav{
 }
 
 aside{
-    height: 500px;
+    height: 1000px;
     width: 30%;
     background-color: rgb(200,255,0);
     float: left;
     padding: 0px 5px 0px 0px;
+    margin: 10px;
 }
 
 article{
-    height: 500px;
-    background-color: rgb(200,200,200);
+    height: 1000px;
+    background-color: #333;
     padding-left: 5px;
+    margin: 10px;
+    color: white;
 }
 
 footer{
@@ -71,17 +73,25 @@ aside, article {
     padding-left: 5px;
 }
 
+.smalltext {
+    font-size: 20px;
+}
+
+article#index-article {
+    height: 300px
+}
+
 /* Contact Button */
 
 .knopje {
-  background-color: #333;
-  border: none;
-  color: whitesmoke;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 17px;
+    background-color: #333;
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
 }
 
 .knopje:hover {
@@ -118,6 +128,10 @@ li a:hover {
 
 .active_page {
     background-color: #8793d4;
+}
+
+.active_page:hover {
+    background-color: #5c6ed1;
 }
 
 /* social media icons */
