@@ -10,7 +10,7 @@ html, body{
     height: 100%;
     padding: 0;
     background-color: #111;
-    font: Verdana, Arial, Sans-Serif;
+    font: Sans-Serif;
 }
 
 main {
@@ -21,7 +21,10 @@ main {
 
 header{
     height: 200px;
-    background-image: url("afbeeldingen/headerpic_hockey.jpg");
+    background-image: url("afbeeldingen/hockeyheader2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0px -210px; 
     font-family: sans-serif;
 }
 
@@ -32,11 +35,12 @@ nav{
 
 aside{
     height: 1000px;
-    width: 30%;
-    background-color: rgb(200,255,0);
+    width: 20%;
+    background-color: #333;
     float: left;
     padding: 0px 5px 0px 0px;
     margin: 10px;
+    color: antiquewhite;
 }
 
 article{
@@ -44,7 +48,7 @@ article{
     background-color: #333;
     padding-left: 5px;
     margin: 10px;
-    color: white;
+    color: antiquewhite;
 }
 
 footer{
@@ -58,11 +62,12 @@ footer{
 
 header.title{
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
+    color: white;
 }
 
 aside, article {
-    font-size: 30px;
+    font-size: 20px;
     overflow: auto;
 }
 
@@ -78,7 +83,64 @@ aside, article {
 }
 
 article#index-article {
-    height: 300px
+    height: 350px
+}
+
+.floatright {
+    float: right;
+    width: 300px;
+}
+
+.spelregels-article {
+    height: 1560px;
+}
+
+.spelregels-aside {
+    height: 300px;
+}
+
+.gevaarlijk-spel {
+    list-style-type: disc;
+}
+
+.inhoud-spelregels {
+    color: white;
+}
+
+.inhoud-spelregels:hover {
+    opacity: 0.8;
+}
+
+.h2-article {
+    font-size: 50px;
+}
+
+.h4-article {
+    font-size: 20px;
+}
+
+.h3-article {
+    font-size: 30px;
+}
+
+.p-weetje {
+    font-size: 30px;
+}
+
+.h2-weetje {
+    font-size: 50px;
+}
+
+.groen {
+    color: green;
+}
+
+.geel {
+    color: yellow;
+}
+
+.rood {
+    color: red;
 }
 
 /* Contact Button */
