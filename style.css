@@ -39,14 +39,14 @@ aside{
     float: left;
     padding: 0px 5px 0px 0px;
     margin: 10px;
-    color: antiquewhite;
+    color: whitesmoke;
 }
 
 article{
     background-color: #333;
     padding-left: 5px;
     margin: 10px;
-    color: antiquewhite;
+    color: whitesmoke;
 }
 
 footer{
@@ -81,6 +81,10 @@ aside, article {
     font-size: 20px;
 }
 
+.bigtext {
+    font-size: 50px;
+}
+
 article#index-article {
     height: 350px;
 }
@@ -107,6 +111,14 @@ article#index-article {
 }
 
 .inhoud-spelregels:hover {
+    opacity: 0.8;
+}
+
+.inhoud-veld {
+    color: white;
+}
+
+.inhoud-veld:hover {
     opacity: 0.8;
 }
 
@@ -145,6 +157,14 @@ article#index-article {
 .weetje {
     border: 5px double red;
     border-radius: 5px;
+}
+
+.whitetext {
+    color: white;
+}
+
+.whitetext:hover {
+    opacity: 0.8;
 }
 
 /* Contact Button */
