@@ -82,13 +82,20 @@ aside, article {
 }
 
 article#index-article {
-    height: 350px
+    height: 350px;
 }
 
 .floatright {
     float: right;
     width: 300px;
     margin: 5px;
+}
+
+.floatleft {
+    float: left;
+    width: 20%;
+    margin: 5px;
+    clear: both;
 }
 
 .gevaarlijk-spel {
